@@ -38,9 +38,9 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  sun = createSprite(width-50,100,10,10);
+  sun = createSprite(width-500,100,10,10);
   sun.addAnimation("sun", sunAnimation);
-  sun.scale = 0.1
+  sun.scale = 0.02;
   
   mario = createSprite(50,height-70,20,50);
   
